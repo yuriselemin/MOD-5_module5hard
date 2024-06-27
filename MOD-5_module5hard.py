@@ -69,7 +69,6 @@ class UrTube:
             print("Войдите в аккаунт, чтобы смотреть видео")
             return
 
-        age_restricted_video = False
         if self.current_user.age < 18:
             print("Вам нет 18 лет, пожалуйста покиньте страницу")
             return
